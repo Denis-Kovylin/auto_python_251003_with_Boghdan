@@ -1,4 +1,6 @@
 # Byte-compiled / optimized / DLL files
+#My own ignors
+draft.py
 __pycache__/
 *.py[cod]
 *$py.class
