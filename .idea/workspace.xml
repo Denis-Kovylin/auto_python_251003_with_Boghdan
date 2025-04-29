@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2fc4054-d67f-449d-81e2-58795e4e4894" name="Changes" comment="fix" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Denis-Kovylin&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Denis-Kovylin/auto_python_251003_with_Boghdan.git&quot;,
+    &quot;accountId&quot;: &quot;79f31571-a768-4d5e-b115-349de50554b4&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/013_lsn_unittest/test_unittest.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2vcsjpLshZsuLRczIYR9R0gUKSi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_log_event_pytest.test_log_event_expired.executor": "Run",
+    "Python tests.Python tests for test_log_event_pytest.test_log_event_failed.executor": "Run",
+    "Python tests.Python tests for test_unittest.TestFunctions013.executor": "Run",
+    "Python tests.Python tests for test_unittest.TestFunctions013.test_is_palindrome_empty.executor": "Run",
+    "Python tests.Python tests for test_unittest.TestFunctions013.test_is_palindrome_positive.executor": "Run",
+    "Python tests.Python tests for test_unittest.TestFunctions013.test_sum_two_negative_numbers.executor": "Run",
+    "Python tests.Python tests for test_unittest.TestListArithmeticAverage.executor": "Run",
+    "Python tests.Python tests in 013_lsn_unittest.py.executor": "Run",
+    "Python tests.Python tests in test_log_event_pytest.py.executor": "Run",
+    "Python tests.Python tests in test_unittest.py.executor": "Run",
+    "Python.003_sintax_fix.executor": "Run",
+    "Python.005_lsn_carSearch.executor": "Run",
+    "Python.006_lsn_list_tuple.executor": "Run",
+    "Python.007_lsn_count_simb.executor": "Run",
+    "Python.008_lsn_find_H.executor": "Run",
+    "Python.009_lsn_filtr_str.executor": "Run",
+    "Python.010_lsn_pair_sum.executor": "Run",
+    "Python.012_lsn_invalid_char_trap.executor": "Run",
+    "Python.draft.executor": "Run",
+    "Python.homework_01_Den.executor": "Run",
+    "Python.homework_04.executor": "Run",
+    "Python.lsn_pytest.executor": "Run",
+    "Python.test_log_event_pytest.executor": "Run",
+    "Python.test_lsn_pytest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/HomeWork/Desktop/homework_10.py",
+    "settings.editor.selected.configurable": "AtomHomeConfigurable"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.test_log_event_pytest">
+    <configuration name="test_log_event_pytest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="auto_python_251003_with_Boghdan" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (pythonProject)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/014_lsn_logger/tests" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/014_lsn_logger/tests/test_log_event_pytest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_unittest.TestFunctions013.test_is_palindrome_empty" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="auto_python_251003_with_Boghdan" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/013_lsn_unittest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_unittest.TestFunctions013.test_is_palindrome_empty&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_unittest.TestFunctions013.test_sum_two_negative_numbers" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="auto_python_251003_with_Boghdan" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/013_lsn_unittest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_unittest.TestFunctions013.test_sum_two_negative_numbers&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_unittest.TestListArithmeticAverage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="auto_python_251003_with_Boghdan" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/013_lsn_unittest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_unittest.TestListArithmeticAverage&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_unittest.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="auto_python_251003_with_Boghdan" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/013_lsn_unittest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/013_lsn_unittest/test_unittest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_log_event_pytest" />
+        <item itemvalue="Python tests.Python tests in test_unittest.py" />
+        <item itemvalue="Python tests.Python tests for test_unittest.TestListArithmeticAverage" />
+        <item itemvalue="Python tests.Python tests for test_unittest.TestFunctions013.test_is_palindrome_empty" />
+        <item itemvalue="Python tests.Python tests for test_unittest.TestFunctions013.test_sum_two_negative_numbers" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\HomeWork\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2fc4054-d67f-449d-81e2-58795e4e4894" name="Changes" comment="" />
+      <created>1744455835705</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744455835705</updated>
+    </task>
+    <task id="LOCAL-00001" summary="fix">
+      <option name="closed" value="true" />
+      <created>1745623892707</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745623892707</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="cleaned" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
