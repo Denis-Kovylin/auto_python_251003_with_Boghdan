@@ -8,3 +8,5 @@ if __name__ == "__main__":
     result = os.path.join(base_path, "work_with_csv", "result_Kovylin.csv")
 
     remove_duplicates_csv(file1, file2, result)
+
+# UPD

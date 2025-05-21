@@ -7,3 +7,5 @@ if __name__ == "__main__":
     log_file = os.path.join(base_path, "json_Kovylin.log")
 
     validate_json_files(json_folder, log_file)
+
+# UPD

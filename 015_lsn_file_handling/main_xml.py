@@ -10,3 +10,5 @@ if __name__ == "__main__":
 
     result = find_incoming_by_group_nimber(xml_path, target_group_number)
     print("Результат:", result)
+
+# UPD

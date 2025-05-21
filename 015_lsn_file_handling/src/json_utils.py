@@ -19,3 +19,5 @@ def validate_json_files(folder_path: str, log_path: str):
                 json.load(f)
         except json.JSONDecodeError as e:
             logging.error(f"Файл {filename} не є валідним JSON: {e}")
+
+# UPD
