@@ -1,5 +1,7 @@
 # Byte-compiled / optimized / DLL files
 #My own ignors
+images/
+root_draft.py
 draft.py
 __pycache__/
 *.py[cod]
