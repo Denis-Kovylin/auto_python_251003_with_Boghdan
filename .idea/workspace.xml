@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2fc4054-d67f-449d-81e2-58795e4e4894" name="Changes" comment="fix" />
+    <list default="true" id="c2fc4054-d67f-449d-81e2-58795e4e4894" name="Changes" comment="fix">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/auto_python_251003_with_Boghdan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/auto_python_251003_with_Boghdan.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,38 +52,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_log_event_pytest.test_log_event_expired.executor": "Run",
-    "Python tests.Python tests for test_log_event_pytest.test_log_event_failed.executor": "Run",
-    "Python tests.Python tests for test_unittest.TestFunctions013.executor": "Run",
-    "Python tests.Python tests for test_unittest.TestFunctions013.test_is_palindrome_empty.executor": "Run",
-    "Python tests.Python tests for test_unittest.TestFunctions013.test_is_palindrome_positive.executor": "Run",
-    "Python tests.Python tests for test_unittest.TestFunctions013.test_sum_two_negative_numbers.executor": "Run",
-    "Python tests.Python tests for test_unittest.TestListArithmeticAverage.executor": "Run",
-    "Python tests.Python tests in 013_lsn_unittest.py.executor": "Run",
-    "Python tests.Python tests in test_log_event_pytest.py.executor": "Run",
-    "Python tests.Python tests in test_unittest.py.executor": "Run",
-    "Python.003_sintax_fix.executor": "Run",
-    "Python.005_lsn_carSearch.executor": "Run",
-    "Python.006_lsn_list_tuple.executor": "Run",
-    "Python.007_lsn_count_simb.executor": "Run",
-    "Python.008_lsn_find_H.executor": "Run",
-    "Python.009_lsn_filtr_str.executor": "Run",
-    "Python.010_lsn_pair_sum.executor": "Run",
-    "Python.012_lsn_invalid_char_trap.executor": "Run",
-    "Python.draft.executor": "Run",
-    "Python.homework_01_Den.executor": "Run",
-    "Python.homework_04.executor": "Run",
-    "Python.lsn_pytest.executor": "Run",
-    "Python.test_log_event_pytest.executor": "Run",
-    "Python.test_lsn_pytest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/HomeWork/Desktop/homework_10.py",
-    "settings.editor.selected.configurable": "AtomHomeConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_log_event_pytest.test_log_event_expired.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_log_event_pytest.test_log_event_failed.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_unittest.TestFunctions013.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_unittest.TestFunctions013.test_is_palindrome_empty.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_unittest.TestFunctions013.test_is_palindrome_positive.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_unittest.TestFunctions013.test_sum_two_negative_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_unittest.TestListArithmeticAverage.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in 013_lsn_unittest.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_log_event_pytest.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_unittest.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.003_sintax_fix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.005_lsn_carSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Python.006_lsn_list_tuple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.007_lsn_count_simb.executor&quot;: &quot;Run&quot;,
+    &quot;Python.008_lsn_find_H.executor&quot;: &quot;Run&quot;,
+    &quot;Python.009_lsn_filtr_str.executor&quot;: &quot;Run&quot;,
+    &quot;Python.010_lsn_pair_sum.executor&quot;: &quot;Run&quot;,
+    &quot;Python.012_lsn_invalid_char_trap.executor&quot;: &quot;Run&quot;,
+    &quot;Python.draft.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homework_01_Den.executor&quot;: &quot;Run&quot;,
+    &quot;Python.homework_04.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lsn_pytest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_log_event_pytest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_lsn_pytest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_nasa_api_client.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;020__lsn__mars__rover&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HomeWork/Desktop/homework_10.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AtomHomeConfigurable&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.test_log_event_pytest">
+}</component>
+  <component name="RunManager" selected="Python.test_nasa_api_client">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="auto_python_251003_with_Boghdan" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/020_lsn_mars_rover" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/020_lsn_mars_rover/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_log_event_pytest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="auto_python_251003_with_Boghdan" />
       <option name="ENV_FILES" value="" />
@@ -88,7 +120,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12 (pythonProject)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/014_lsn_logger/tests" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -102,34 +133,26 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_unittest.TestFunctions013.test_is_palindrome_empty" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="test_nasa_api_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="auto_python_251003_with_Boghdan" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/013_lsn_unittest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/020_lsn_mars_rover/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_unittest.TestFunctions013.test_is_palindrome_empty&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_unittest.TestFunctions013.test_sum_two_negative_numbers" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="auto_python_251003_with_Boghdan" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/013_lsn_unittest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_unittest.TestFunctions013.test_sum_two_negative_numbers&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/020_lsn_mars_rover/tests/test_nasa_api_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_unittest.TestListArithmeticAverage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -164,18 +187,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_nasa_api_client" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.test_log_event_pytest" />
         <item itemvalue="Python tests.Python tests in test_unittest.py" />
         <item itemvalue="Python tests.Python tests for test_unittest.TestListArithmeticAverage" />
-        <item itemvalue="Python tests.Python tests for test_unittest.TestFunctions013.test_is_palindrome_empty" />
-        <item itemvalue="Python tests.Python tests for test_unittest.TestFunctions013.test_sum_two_negative_numbers" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+        <option value="bundled-python-sdk-dfff61a61320-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.159" />
       </set>
     </attachedChunks>
   </component>
