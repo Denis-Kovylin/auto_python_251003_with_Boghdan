@@ -1,4 +1,4 @@
-gap:str = "\n"
+gap: str = "\n"
 adwentures_of_tom_sawer = """\
 Tom gave up the brush with reluctance in his .... face but alacrity
 in his heart. And while
@@ -56,21 +56,23 @@ for word in adwentures_of_tom_sawer_task_5:
     cleaned_words.append(cleaned)
 
 for elem in cleaned_words:
-    if elem and elem[0].isupper():
+    if elem and elem[0].istitle():
         cap_counter += 1
 print(f"Слов, що починаються з великої літери: {cap_counter}{gap}")
 # task 06
 """ Виведіть позицію, на якій слово Tom зустрічається вдруге
 """
 adwentures_of_tom_sawer_task_6: str = adwentures_of_tom_sawer_task_5
-print(f"Вдруге строка 'Том' зустрічається починаючи з: {adwentures_of_tom_sawer_task_6.find("Tom", 3)} символа.{gap}")
+f_index = adwentures_of_tom_sawer_task_6.find("Tom")
+print(
+    f"Вдруге строка 'Том' зустрічається починаючи з: {adwentures_of_tom_sawer_task_6.find("Tom", f_index + 1)} символа.{gap}")
 
 # task 07
 """ Розділіть змінну adwentures_of_tom_sawer по кінцю речення.
 Збережіть результат у змінній adwentures_of_tom_sawer_sentences
 """
 adwentures_of_tom_sawer_task_7: str = adwentures_of_tom_sawer_task_6
-adwentures_of_tom_sawer_sentences = adwentures_of_tom_sawer_task_7.split(".")
+adwentures_of_tom_sawer_sentences = adwentures_of_tom_sawer_task_7.split(". ")
 print(adwentures_of_tom_sawer_sentences, gap)
 
 # task 08
@@ -95,3 +97,5 @@ for index, sentence in enumerate(adwentures_of_tom_sawer_task_9):
 """
 adwentures_of_tom_sawer_task_10: str = adwentures_of_tom_sawer_sentences
 print(f"Останнє речення складаеться з {len(adwentures_of_tom_sawer_task_10[-2].strip().split(" "))} слів.")
+
+# UPD
