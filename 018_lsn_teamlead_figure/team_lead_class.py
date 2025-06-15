@@ -1,19 +1,18 @@
 class Employee:
-    def __init__(self, name: str, salary: float, **kwargs):
+    def __init__(self, name: str, salary: float):
         self.name = name
         self.salary = salary
-        # не вызываем super — это самый «нижний» уровень
 
 
 class Manager(Employee):
-    def __init__(self, department: str, **kwargs):
-        super().__init__(**kwargs)         # передаём name, salary и всё прочее
+    def __init__(self, name: str, salary: float, department: str):
+        super().__init__(name, salary)
         self.department = department
 
 
 class Developer(Employee):
-    def __init__(self, programming_language: str, **kwargs):
-        super().__init__(**kwargs)         # передаём name, salary и всё прочее
+    def __init__(self, name: str, salary: float, programming_language: str):
+        super().__init__(name, salary)
         self.programming_language = programming_language
 
 
@@ -24,12 +23,10 @@ class TeamLead(Manager, Developer):
                  department: str,
                  programming_language: str,
                  team_size: int):
-        super().__init__(
-            department=department,
-            programming_language=programming_language,
-            name=name,
-            salary=salary
-        )
+        # Явно вызываем базовый класс
+        Employee.__init__(self, name, salary)
+        self.department = department
+        self.programming_language = programming_language
         self.team_size = team_size
 
     def __str__(self):
