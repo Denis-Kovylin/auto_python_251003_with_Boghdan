@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2fc4054-d67f-449d-81e2-58795e4e4894" name="Changes" comment="fix">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/014_lsn_logger/logger_014_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/014_lsn_logger/logger_014_testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/014_lsn_logger/tests/test_log_event_pytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/014_lsn_logger/tests/test_log_event_pytest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,52 +49,75 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python tests.Python tests for test_log_event_pytest.TestLogEvent.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_log_event_pytest.test_log_event_expired.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_log_event_pytest.test_log_event_failed.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_log_event_pytest.test_log_event_success.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_unittest.TestFunctions013.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_unittest.TestFunctions013.test_is_palindrome_empty.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_unittest.TestFunctions013.test_is_palindrome_positive.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_unittest.TestFunctions013.test_sum_two_negative_numbers.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_unittest.TestListArithmeticAverage.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 013_lsn_unittest.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_log_event_pytest.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_unittest.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.003_sintax_fix.executor&quot;: &quot;Run&quot;,
-    &quot;Python.004_lsn_strings.executor&quot;: &quot;Run&quot;,
-    &quot;Python.005_lsn_carSearch.executor&quot;: &quot;Run&quot;,
-    &quot;Python.006_lsn_list_tuple.executor&quot;: &quot;Run&quot;,
-    &quot;Python.007_lsn_count_simb.executor&quot;: &quot;Run&quot;,
-    &quot;Python.008_lsn_find_H.executor&quot;: &quot;Run&quot;,
-    &quot;Python.009_lsn_filtr_str.executor&quot;: &quot;Run&quot;,
-    &quot;Python.010_lsn_pair_sum.executor&quot;: &quot;Run&quot;,
-    &quot;Python.012_lsn_invalid_char_trap.executor&quot;: &quot;Run&quot;,
-    &quot;Python.draft.executor&quot;: &quot;Run&quot;,
-    &quot;Python.heartbeat_analyzer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.homework_01_Den.executor&quot;: &quot;Run&quot;,
-    &quot;Python.homework_04.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lsn_pytest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.python main.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.root_draft.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_log_event_pytest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_lsn_pytest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_nasa_api_client.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;006__lsn__list__tuple&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HomeWork/Desktop/homework_10.py&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;AtomHomeConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_figures.TestFigures.test_rectangle.executor": "Run",
+    "Python tests.Python tests for test_log_event_pytest.TestLogEvent.executor": "Run",
+    "Python tests.Python tests for test_log_event_pytest.test_log_event_expired.executor": "Run",
+    "Python tests.Python tests for test_log_event_pytest.test_log_event_failed.executor": "Run",
+    "Python tests.Python tests for test_log_event_pytest.test_log_event_success.executor": "Run",
+    "Python tests.Python tests for test_search_cars.test_search_cars.executor": "Run",
+    "Python tests.Python tests for test_team_lead.TestTeamLead.executor": "Run",
+    "Python tests.Python tests for test_team_lead.TestTeamLead.test_has_department.executor": "Run",
+    "Python tests.Python tests for test_team_lead.test_team_lead_attributes.executor": "Run",
+    "Python tests.Python tests for test_unittest.TestFunctions013.executor": "Run",
+    "Python tests.Python tests for test_unittest.TestFunctions013.test_is_palindrome_empty.executor": "Run",
+    "Python tests.Python tests for test_unittest.TestFunctions013.test_is_palindrome_positive.executor": "Run",
+    "Python tests.Python tests for test_unittest.TestFunctions013.test_sum_two_negative_numbers.executor": "Run",
+    "Python tests.Python tests for test_unittest.TestListArithmeticAverage.executor": "Run",
+    "Python tests.Python tests in 013_lsn_unittest.py.executor": "Run",
+    "Python tests.Python tests in test_crud_usage.py.executor": "Run",
+    "Python tests.Python tests in test_log_event_pytest.py.executor": "Run",
+    "Python tests.Python tests in test_unittest.py.executor": "Run",
+    "Python.003_sintax_fix.executor": "Run",
+    "Python.004_lsn_strings.executor": "Run",
+    "Python.005_lsn_carSearch.executor": "Run",
+    "Python.006_lsn_list_tuple.executor": "Run",
+    "Python.007_lsn_count_simb.executor": "Run",
+    "Python.008_lsn_find_H.executor": "Run",
+    "Python.009_lsn_filtr_str.executor": "Run",
+    "Python.010_lsn_pair_sum.executor": "Run",
+    "Python.012_lsn_invalid_char_trap.executor": "Run",
+    "Python.cars_app.executor": "Run",
+    "Python.check_categories.executor": "Run",
+    "Python.check_courses.executor": "Run",
+    "Python.check_enrollments.executor": "Run",
+    "Python.check_products.executor": "Run",
+    "Python.check_students.executor": "Run",
+    "Python.create_tables (1).executor": "Run",
+    "Python.create_tables.executor": "Run",
+    "Python.crud_usage.executor": "Run",
+    "Python.draft.executor": "Run",
+    "Python.enroll_students.executor": "Run",
+    "Python.figure_example.executor": "Run",
+    "Python.heartbeat_analyzer.executor": "Run",
+    "Python.hogwarts_crud.executor": "Run",
+    "Python.homework_01_Den.executor": "Run",
+    "Python.homework_04.executor": "Run",
+    "Python.insert_categories.executor": "Run",
+    "Python.insert_courses.executor": "Run",
+    "Python.insert_products.executor": "Run",
+    "Python.insert_students.executor": "Run",
+    "Python.lsn_pytest.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.python main.py.executor": "Run",
+    "Python.root_draft.executor": "Run",
+    "Python.team_lead_example.executor": "Run",
+    "Python.test_log_event_pytest.executor": "Run",
+    "Python.test_lsn_pytest.executor": "Run",
+    "Python.test_nasa_api_client.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "025__lsn__flask__cars",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/HomeWork/Desktop/homework_10.py",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Python.006_lsn_list_tuple">
-    <configuration name="006_lsn_list_tuple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for test_search_cars.test_search_cars">
+    <configuration name="cars_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="auto_python_251003_with_Boghdan" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,11 +126,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/006_lsn_list_tuple" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/025_lsn_flask_cars" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/006_lsn_list_tuple/006_lsn_list_tuple.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/025_lsn_flask_cars/cars_app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,73 +139,94 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_log_event_pytest.TestLogEvent" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="check_enrollments" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="auto_python_251003_with_Boghdan" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/014_lsn_logger/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/024_lsn_sql_students_courses" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_log_event_pytest.TestLogEvent&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/024_lsn_sql_students_courses/check_enrollments.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_log_event_pytest.test_log_event_expired" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="crud_usage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="auto_python_251003_with_Boghdan" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/014_lsn_logger/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/024_lsn_sql_students_courses" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_log_event_pytest.test_log_event_expired&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/024_lsn_sql_students_courses/crud_usage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_log_event_pytest.test_log_event_failed" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="enroll_students" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="auto_python_251003_with_Boghdan" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/014_lsn_logger/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/024_lsn_sql_students_courses" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_log_event_pytest.test_log_event_failed&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/024_lsn_sql_students_courses/enroll_students.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_log_event_pytest.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_search_cars.test_search_cars" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="auto_python_251003_with_Boghdan" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/014_lsn_logger/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/025_lsn_flask_cars" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/014_lsn_logger/tests/test_log_event_pytest.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_search_cars.test_search_cars&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.006_lsn_list_tuple" />
-        <item itemvalue="Python tests.Python tests for test_log_event_pytest.TestLogEvent" />
-        <item itemvalue="Python tests.Python tests in test_log_event_pytest.py" />
-        <item itemvalue="Python tests.Python tests for test_log_event_pytest.test_log_event_expired" />
-        <item itemvalue="Python tests.Python tests for test_log_event_pytest.test_log_event_failed" />
+        <item itemvalue="Python tests.Python tests for test_search_cars.test_search_cars" />
+        <item itemvalue="Python.cars_app" />
+        <item itemvalue="Python.check_enrollments" />
+        <item itemvalue="Python.crud_usage" />
+        <item itemvalue="Python.enroll_students" />
       </list>
     </recent_temporary>
   </component>
