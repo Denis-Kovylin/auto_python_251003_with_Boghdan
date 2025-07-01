@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2fc4054-d67f-449d-81e2-58795e4e4894" name="Changes" comment="fix">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +56,7 @@
     "Python tests.Python tests for test_log_event_pytest.test_log_event_expired.executor": "Run",
     "Python tests.Python tests for test_log_event_pytest.test_log_event_failed.executor": "Run",
     "Python tests.Python tests for test_log_event_pytest.test_log_event_success.executor": "Run",
+    "Python tests.Python tests for test_search_cars.test_search_cars.executor": "Run",
     "Python tests.Python tests for test_team_lead.TestTeamLead.executor": "Run",
     "Python tests.Python tests for test_team_lead.TestTeamLead.test_has_department.executor": "Run",
     "Python tests.Python tests for test_team_lead.test_team_lead_attributes.executor": "Run",
@@ -78,6 +78,7 @@
     "Python.009_lsn_filtr_str.executor": "Run",
     "Python.010_lsn_pair_sum.executor": "Run",
     "Python.012_lsn_invalid_char_trap.executor": "Run",
+    "Python.cars_app.executor": "Run",
     "Python.check_categories.executor": "Run",
     "Python.check_courses.executor": "Run",
     "Python.check_enrollments.executor": "Run",
@@ -109,13 +110,35 @@
     "Python.test_nasa_api_client.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "024__lsn__sql__students__courses",
+    "git-widget-placeholder": "025__lsn__flask__cars",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/HomeWork/Desktop/homework_10.py",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.crud_usage">
+  <component name="RunManager" selected="Python tests.Python tests for test_search_cars.test_search_cars">
+    <configuration name="cars_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="auto_python_251003_with_Boghdan" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/025_lsn_flask_cars" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/025_lsn_flask_cars/cars_app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="check_enrollments" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="auto_python_251003_with_Boghdan" />
       <option name="ENV_FILES" value="" />
@@ -130,28 +153,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/024_lsn_sql_students_courses/check_enrollments.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="check_students" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="auto_python_251003_with_Boghdan" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/024_lsn_sql_students_courses" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/024_lsn_sql_students_courses/check_students.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,35 +205,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="insert_students" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_search_cars.test_search_cars" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="auto_python_251003_with_Boghdan" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/024_lsn_sql_students_courses" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/025_lsn_flask_cars" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/024_lsn_sql_students_courses/insert_students.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_search_cars.test_search_cars&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.crud_usage" />
+        <item itemvalue="Python tests.Python tests for test_search_cars.test_search_cars" />
+        <item itemvalue="Python.cars_app" />
         <item itemvalue="Python.check_enrollments" />
+        <item itemvalue="Python.crud_usage" />
         <item itemvalue="Python.enroll_students" />
-        <item itemvalue="Python.check_students" />
-        <item itemvalue="Python.insert_students" />
       </list>
     </recent_temporary>
   </component>
